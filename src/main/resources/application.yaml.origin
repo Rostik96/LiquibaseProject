@@ -2,7 +2,7 @@ spring:
   liquibase:
     enabled:
   datasource:
-    url: jdbc:h2:file:./db
+    url: jdbc:h2:mem:mydb
     username:
     password:
   jpa:
