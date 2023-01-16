@@ -3,3 +3,5 @@ databaseChangeLog:
       file: db/changelog/changeset/create-author-table.yaml
   - include:
       file: db/changelog/changeset/create-article.yaml
+  - include:
+      file: db/changelog/changeset/alter-author-table.yaml
